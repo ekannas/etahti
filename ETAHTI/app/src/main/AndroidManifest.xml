@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplikasianaknegeri.e_tahti">
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProfilActivity"></activity>
+        <activity android:name=".StatistikPersediaanActivity" />
+        <activity android:name=".StatistikTambangActivity" />
+        <activity android:name=".StatistikSenjataActivity" />
+        <activity android:name=".StatistikMesinActivity" />
+        <activity android:name=".StatistikGedungActivity" />
+        <activity android:name=".StatistikTanahActivity" />
+        <activity android:name=".StatistikLogamActivity" />
+        <activity android:name=".StatistikDokumenActivity" />
+        <activity android:name=".StatistikUangActivity" />
+        <activity android:name=".DetailPersediaanActivity" />
+        <activity android:name=".DetailMesinActivity" />
+        <activity android:name=".DetailSenjataActivity" />
+        <activity android:name=".DetailLogamActivity" />
+        <activity android:name=".DetailDokumenActivity" />
+        <activity android:name=".DetailGedungActivity" />
+        <activity android:name=".DetailBuktiTanahActivity" />
+        <activity android:name=".DetailUangActivity" />
+        <activity android:name=".DetailBahanBakarActivity" />
+        <activity android:name=".DetailBuktiActivity" />
+        <activity android:name=".BarangBuktiTambahActivity" />
+        <activity android:name=".StatistikTahananActivity" />
+        <activity android:name=".StatistikBuktiActivity" />
+        <activity android:name=".BuktiPersediaanActivity" />
+        <activity android:name=".BuktiBahanBakarActivity" />
+        <activity android:name=".BuktiSenjataActivity" />
+        <activity android:name=".BuktiMesinActivity" />
+        <activity android:name=".BuktiGedungActivity" />
+        <activity android:name=".BuktiTanahActivity" />
+        <activity android:name=".BuktiLogamActivity" />
+        <activity android:name=".BuktiDokumenActivity" />
+        <activity android:name=".BuktiUangActivity" />
+        <activity
+            android:name=".BarangBuktiActivity"
+            android:label="@string/title_activity_barang_bukti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailTahananActivity" />
+        <activity
+            android:name=".TahananTambahActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TahananActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
